@@ -117,7 +117,7 @@ p a{
   /*Redefinicion controlada*/
   @media (max-width: 780px) {
     section > article {
-        height: 10rem; /
+        height: 12rem; /
     }
 
     section > article h3 {
@@ -128,10 +128,10 @@ p a{
  /*Redefinicion controlada*/
  @media (max-width: 380px) {
     section > article {
-        height: 7rem; /
+        height: 10rem; /
     }
 
     section > article h3 {
-        font-size: 0.8rem; 
+        font-size: 0.9rem; 
     }
 }
