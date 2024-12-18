@@ -1,0 +1,244 @@
+/* Adrian Dumitru UO295652 Warm Sunset color combination */
+
+/* Especificidad:001 */
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: #FDB750; 
+  color: #010100; 
+  margin: 0;
+  padding: 0;
+}
+
+/* Especificidad:011 */
+a:link {
+  color: #350503;
+  background-color: transparent;
+}
+/* Especificidad:011 */
+a:visited {
+  color: #010100;
+  background-color: transparent;
+
+}
+/* Especificidad:011 */
+a:focus {
+  border-bottom: 0.2 solid #350503;
+  color: #350503;
+  background-color: transparent;
+}
+
+/* Especificidad:001 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  border: 0.1rem solid #010100;
+  background-color: #FFFFFF;
+  color: #010100;
+}
+/* Especificidad:002
+  color de primer plano heredado de table
+*/
+
+table thead {
+  background-color: #FD7F20; 
+  border-bottom: 0.2rem solid #010100;
+}
+/* Especificidad:003 */
+table thead th {
+  padding: 1rem;
+  border: 0.1rem solid #010100; 
+}
+/* Especificidad:013 
+  color de primer plano heredado de table #010100
+*/
+table tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+/* Especificidad:002 */
+table td, table th {
+  padding: 1rem;
+  border: 0.1rem solid #010100;
+}
+
+/* Especificidad:001 */
+form {
+  background-color: #FD7F20;
+  padding: 1.5rem; 
+  border-radius: 0.75rem; 
+  box-shadow: 0 0.5rem 1rem #00000066; 
+  margin: 2rem auto; 
+  width: 80%; 
+  color: #010100;
+  max-width: 90%; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 0.2rem solid #672e03; 
+}
+/* Especificidad:011 */
+form:hover {
+  transform: translateY(-0.5em);
+  box-shadow: 0 0.5em 1em #00000066;
+}
+/* Especificidad:002 
+  background color heredado de form #FD7F20
+*/
+form h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #010100;
+  margin-bottom: 1em;
+}
+/* Especificidad:002 */
+form label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+/* Especificidad:002 */
+form select,
+form button {
+  width: 100%;
+  padding: 0.8em;
+  border: 0.3em solid #010100;
+  border-radius: 0.1em;
+
+}
+/* Especificidad:002 */
+form button {
+  background-color: #900C3F;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 0.6em;
+}
+/* Especificidad: (0,1,3)
+color heredado de body #010100
+*/
+main > section:nth-of-type(3) > canvas {
+  border: 0.1em solid #000; 
+  background-color: #eee; 
+}
+
+/* Especificidad: (0,1,3)
+*/
+main > section:nth-of-type(2) > figure {
+  display: inline-block;
+  margin: 1em;
+  cursor: move;
+}
+
+/* Especificidad: (0,1,4)
+*/
+main > section:nth-of-type(2) > figure > img {
+  width: 12.125em; 
+  height: 12.125em; 
+}
+
+/* Especificidad: (0,1,3)
+*/
+main > section:nth-of-type(3) > p {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* Especificidad: (0,1,3)
+*/
+main > section:nth-of-type(4) > ul {
+  list-style-type: decimal;
+  margin-left: 1.25em; 
+}
+/* Especificidad:012 
+  color heredado de form button #FFFFFF
+*/
+form button:hover {
+  background-color: #E73879;
+  transform: scale(1.05);
+
+}
+/* Especificidad: (0,0,1)
+*/
+ol {
+  padding: 2rem; 
+  margin: 2vw auto; 
+  max-width: 90%; 
+  background-color: #FD7F20; 
+  border: 0.2rem solid #672e03; 
+  border-radius: 0.5rem; 
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 1rem; 
+  color: #333; 
+}
+
+/* Especificidad:002
+  color de primer plano heredado de ol
+*/
+ol li {
+  margin: 1rem 0; 
+  padding: 0.5rem 1rem; 
+  background-color: #fff;
+  border-bottom: 0.1rem solid #672e03; 
+  border-radius: 0.3rem; 
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease; 
+}
+/* Especificidad:012*/
+ol li:last-child {
+  border-bottom: none;
+}
+/* Especificidad:002*/
+section button {
+  margin-bottom: 1rem; /* Añadir espacio debajo de los botones */
+  margin-right: 0.5rem; /* Espacio entre botones */
+}
+
+/* Especificidad:002
+  color de fondo heredado de body
+*/
+p a{
+  color: #000;
+}
+/* Especificidad:012*/
+p a:hover{
+  transform: translateY(-0.2rem); 
+  box-shadow: 0 0.5rem 1rem #00000026; 
+  
+}
+/* Especificidad:004
+  color de primer plano heredado de body
+*/
+main section nav a {
+  display: inline-block; 
+  margin: 0.5rem; 
+  padding: 0.7rem 1.2rem; 
+  font-size: 1.2rem;
+  font-weight: bold; 
+  text-decoration: none; 
+  background-color: #FD7F20; 
+  border: 0.1rem solid #010100; 
+  border-radius: 0.5rem; 
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* Especificidad: 014 */
+main section nav a:hover,
+main section nav a:focus {
+    background-color: #672e03;
+    color: #ffffff; 
+    transform: translateY(-0.2rem); 
+    box-shadow: 0 0.5rem 1rem #00000026; 
+    text-decoration: underline; 
+}
+/* Especificidad: 003 */
+main > p + div {
+  height: 50vh;
+  width: 100%;
+  border: 0.2rem solid #ccc;
+  margin: 1rem 0;
+}
+@media (max-width: 768px) { /* Ancho típico para móviles */
+  body > p {
+      display: none; /* Oculta las migas de pan */
+  }
+}

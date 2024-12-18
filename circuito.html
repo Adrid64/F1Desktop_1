@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Adrian Dumitru" />
+    <meta name ="description" content ="Circuito" />
+    <meta name ="keywords" content ="Circuito,mapa" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>F1 Desktop</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/article_elements.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" sizes="16x16" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<header>
+    <h1><a href="Index.html">F1 Desktop</a></h1>
+    <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="piloto.html">Piloto</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="calendario.html">Calendario</a>
+        <a href="meteorología.html">Meteorología</a>
+        <a href="circuito.html">Circuito</a>
+        <a href="viajes.php">Viajes</a>
+        <a href="juegos.html">Juegos</a>
+    </nav>
+</header>
+<p>Estas en: <a href="Index.html">Inicio</a> &gt;&gt; Circuito</p>
+<main>
+    <h2>Circuito</h2>
+    <h3>Subir archivo KML:</h3>
+    <p>
+        <input type="file" id="archivo-kml" accept=".kml" onchange="circuito.leerArchivoKML(this)" />
+    </p>
+
+
+        <div id="mapaDinamico"></div>
+
+
+    <h3>Subir archivo XML:</h3>
+    <p>
+        <label>Seleccione un archivo XML:</label>
+        <input type="file" id="archivo-xml" accept=".xml" onchange="circuito.leerArchivoXML(this)" />
+    </p>
+    <section>
+        <h3>Contenido</h3>
+    </section>
+    <h3>Subir archivo SVG:</h3>
+    <p>
+        <input type="file" id="archivo-svg" accept=".svg" onchange="circuito.leerArchivoSVG(this)" />
+    </p>
+</main>
+
+<script src="js/circuito.js"></script>
+</body>
+</html>

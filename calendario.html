@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Adrian Dumitru"/>
+    <meta name="description" content="Calendario de Fórmula 1"/>
+    <meta name="keywords" content="Fórmula 1, calendario, carreras, circuitos"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>F1 Desktop - Calendario de Carreras</title>
+    
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/layout.css">
+    <link rel="stylesheet" href="estilo/agenda_grid.css">
+
+
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" sizes="16x16"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/agenda.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Calendario de Fórmula 1</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="piloto.html">Piloto</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="calendario.html" class="active">Calendario</a>
+            <a href="meteorología.html">Meteorología</a>
+            <a href="circuito.html">Circuito</a>
+            <a href="viajes.php">Viajes</a>
+            <a href="juegos.html">Juegos</a>
+        </nav>
+    </header>
+    <p>Estás en: <a href="index.html">Inicio</a> &gt;&gt; Calendario</p>
+    <main>
+        <h2>Calendario de Carreras de la Temporada</h2>
+        <button type="button" onClick="agenda.verJSON()">Cargar Carreras de la Temporada</button>
+    </main>
+  
+</body>
+</html>

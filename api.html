@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Adrian Dumitru" />
+    <meta name="description" content="Poner descripción" />
+    <meta name="keywords" content="Poner keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Desktop</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/api.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" sizes="16x16" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/api.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">F1 Desktop</a></h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="piloto.html">Piloto</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="calendario.html">Calendario</a>
+            <a href="meteorología.html">Meteorología</a>
+            <a href="circuito.html">Circuito</a>
+            <a href="viajes.php">Viajes</a>
+            <a href="juegos.html">Juegos</a>
+        </nav>
+    </header>
+    <p>Estas en: <a href="Index.html">Inicio</a>&gt;&gt; <a href="juegos.html">Juegos</a> &gt;&gt; Juego de pit Stop</p>
+    <main>
+        <section>
+            <h2>Instrucciones</h2>
+            <p>Arrastra los neumáticos desde el panel a la posición correspondiente en el coche lo más rápido posible. Dispones de 20 segundos.</p>
+            <button type="button">Iniciar Juego</button>
+        </section>
+
+        <section>
+            <h2>Panel de Neumáticos</h2>
+            <figure draggable="true" data-tipo="front-left"><img src="multimedia/imagenes/neumatico.png" alt="Neumático delantero izquierdo" /></figure>
+            <figure draggable="true" data-tipo="front-right"><img src="multimedia/imagenes/neumatico.png" alt="Neumático delantero derecho" /></figure>
+            <figure draggable="true" data-tipo="rear-left"><img src="multimedia/imagenes/neumatico.png" alt="Neumático trasero izquierdo" /></figure>
+            <figure draggable="true" data-tipo="rear-right"><img src="multimedia/imagenes/neumatico.png" alt="Neumático trasero derecho" /></figure>
+        </section>
+
+        <section>
+            <h2>Zona de Pit Stop</h2>
+            <canvas width="600" height="400"></canvas>
+            <p></p>
+        </section>
+
+        <section>
+            <h2>Historial de Mejores Tiempos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="th-tiempo" scope="col">Tiempo (s)</th>
+                        <th id="th-fecha" scope="col">Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

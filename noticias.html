@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Adrian Dumitru" />
+  <meta name="description" content="Noticias F1 Desktop" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name ="keywords" content="noticias,informacion" />
+  <title>Noticias - F1 Desktop</title>
+  <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+  <link rel="stylesheet" type="text/css" href="estilo/article_elements.css" />
+  <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+  <link rel="icon" href="multimedia/imagenes/favicon.ico" sizes="16x16">
+</head>
+<body>
+  <header>
+    <h1><a href="Index.html">F1 Desktop</a></h1>
+    <nav>
+      <a href="Index.html">Inicio</a>
+      <a href="piloto.html">Piloto</a>
+      <a href="noticias.html" class="active">Noticias</a>
+      <a href="calendario.html">Calendario</a>
+      <a href="meteorología.html">Meteorología</a>
+      <a href="circuito.html">Circuito</a>
+      <a href="viajes.php">Viajes</a>
+      <a href="juegos.html">Juegos</a>
+    </nav>
+  </header>
+  <p>Estas en: <a href="Index.html">Inicio</a> &gt;&gt; noticias</p>
+  <main>
+    <h2>Noticias</h2>
+    <p>
+      <label for="archivoTexto">Seleccione un archivo:</label><br>
+      <input type="file" id="archivoTexto">
+    </p>
+
+    <form id="formularioNoticias">
+      <label for="titularInput">Titular:</label>
+      <input type="text" id="titularInput" required>
+
+      <label for="entradillaInput">Entradilla:</label>
+      <input type="text" id="entradillaInput" required>
+
+      <label for="autorInput">Autor:</label>
+      <input type="text" id="autorInput" required>
+      
+      <button type="button" id="agregarNoticiaBtn">Añadir Noticia</button>
+    </form>
+  </main>
+
+  <script src="js/noticias.js"></script>
+</body>
+</html>

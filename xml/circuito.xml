@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Circuito SYSTEM "circuito.dtd">
+<Circuito>
+    <nombre>JOSÉ CARLOS PACE</nombre>
+    <longitudCircuito unidad="km">	4.309 </longitudCircuito>
+    <anchuraMedia>10</anchuraMedia>
+    <fecha>05/11/24</fecha>
+    <hora>18:00</hora>
+    <vueltas>15</vueltas>
+    <localidad>Interlagos</localidad>
+    <pais>Brasil</pais>
+    <referencias>
+        <referencia>
+            https://www.racingcircuits.info/south-america/brazil/interlagos.html
+        </referencia>
+        <referencia>
+            https://www.racingatmosphere.net/circuitos/autodromo-jose-carlos-pace/
+        </referencia>
+        <referencia>
+            https://es.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace
+        </referencia>
+    </referencias>
+
+    <galeria>
+        <fotografia>
+            Circuito.png
+        </fotografia>
+    </galeria>
+
+    <videos>
+        <video>
+            2
+        </video>
+    </videos>
+    <coordenadasGeograficas>
+        <longitud>-23.703751</longitud>
+        <latitud>-46.699938</latitud>
+        <altitud>800</altitud>
+    </coordenadasGeograficas>
+
+    <tramos>
+        
+         <tramo distancia="0.6" unidad="km" numeroSector="3">
+            <coordenadasFinales>
+                <longitud>-46.6995419997569</longitud>
+                <latitud>-23.70505116303553</latitud>
+                <altitud>781</altitud>
+            </coordenadasFinales>
+        </tramo>
+        <tramo distancia="0.7" unidad="km" numeroSector="1">
+            <coordenadasFinales>
+                <longitud>-46.69913973973874</longitud>
+                <latitud>-23.70636967427723</latitud>
+                <altitud>784.08</altitud>
+            </coordenadasFinales>
+        </tramo>
+        <tramo distancia="0.6" unidad="km" numeroSector="1">
+            <coordenadasFinales>
+                <longitud>-46.69856945660378</longitud>
+                <latitud>-23.70638315594387</latitud>
+                <altitud>778</altitud>
+            </coordenadasFinales>
+        </tramo>
+        <tramo distancia="0.4" unidad="km" numeroSector="1">
+            <coordenadasFinales>
+                <longitud>-46.69812007772568</longitud>
+                <latitud>-23.70587270982811</latitud>
+                <altitud>769</altitud>
+            </coordenadasFinales>
+        </tramo>
+        <tramo distancia="0.9" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69702514848646</longitud>
+        <latitud>-23.70637094360933</latitud>
+        <altitud>765</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="1.2" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69586343817331</longitud>
+        <latitud>-23.70582749494479</latitud>
+        <altitud>763</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="1.6" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.6939847731996</longitud>
+        <latitud>-23.69972832646946</latitud>
+        <altitud>749</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.4" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69551666609738</longitud>
+        <latitud>-23.69928275695548</latitud>
+        <altitud>750</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.3" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69644660529942</longitud>
+        <latitud>-23.69981137708659</latitud>
+        <altitud>740</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.5" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69841274997983</longitud>
+        <latitud>-23.70235517259643</latitud>
+        <altitud>756</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.3" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69968358879377</longitud>
+        <latitud>-23.70218002740856</latitud>
+        <altitud>764</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.4" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69997722198092</longitud>
+        <latitud>-23.70048268067146</latitud>
+        <altitud>766</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.5" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69875921100795</longitud>
+        <latitud>-23.70078430079309</latitud>
+        <altitud>760</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.3" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69856530546361</longitud>
+        <latitud>-23.7001620661283</latitud>
+        <altitud>758</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.5" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69963754127533</longitud>
+        <latitud>-23.69897150786947</latitud>
+        <altitud>766</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.3" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69955839779133</longitud>
+        <latitud>-23.69834112835645</latitud>
+        <altitud>768</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.4" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69790301285793</longitud>
+        <latitud>-23.69944596760411</latitud>
+        <altitud>759</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.6" unidad="km" numeroSector="2">
+    <coordenadasFinales>
+        <longitud>-46.69709305903183</longitud>
+        <latitud>-23.69914137812621</latitud>
+        <altitud>751</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="1.0" unidad="km" numeroSector="3">
+    <coordenadasFinales>
+        <longitud>-46.69606517940526</longitud>
+        <latitud>-23.69743987326608</latitud>
+        <altitud>750</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.5" unidad="km" numeroSector="3">
+    <coordenadasFinales>
+        <longitud>-46.69741085053803</longitud>
+        <latitud>-23.69695399121988</latitud>
+        <altitud>759</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.9" unidad="km" numeroSector="3">
+    <coordenadasFinales>
+        <longitud>-46.69973035271462</longitud>
+        <latitud>-23.6977872138113</latitud>
+        <altitud>780</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.8" unidad="km" numeroSector="3">
+    <coordenadasFinales>
+        <longitud>-46.70068241458677</longitud>
+        <latitud>-23.70127563665017</latitud>
+        <altitud>778</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.6" unidad="km" numeroSector="3">
+    <coordenadasFinales>
+        <longitud>-46.69994425977507</longitud>
+        <latitud>-23.70373265179384</latitud>
+        <altitud>779</altitud>
+    </coordenadasFinales>
+</tramo>
+<tramo distancia="0.6" unidad="km" numeroSector="3">
+    <coordenadasFinales>
+        <longitud>-46.6995419997569</longitud>
+        <latitud>-23.70505116303553</latitud>
+        <altitud>781</altitud>
+    </coordenadasFinales>
+</tramo>
+    </tramos>
+
+</Circuito>

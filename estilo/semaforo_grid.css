@@ -1,0 +1,112 @@
+/* Especificidad:001*/
+main {
+    display: grid;
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em; 
+    width: 80%;
+    margin: 0 auto;
+}
+/* Especificidad:001*/
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: #FDB750;
+    color: #010100;
+}
+/* Especificidad:001*/
+h1 {
+    grid-column: span 4;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5em 0;
+}
+/* Especificidad:001*/
+button {
+    grid-column: span 2;
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+/* Encendido progresivo de las luces */
+@keyframes lightOn {
+    0% {
+        background-color: #0007; 
+    }
+    100% {
+        background-color: #FF0000; 
+    }
+}
+
+/* Apagado simultáneo de todas las luces
+    redefinicion de background-color
+    provocadas por el uso de @keyframes
+    color de primer plano heredado de body
+*/
+@keyframes lightOff {
+    0% {
+        background-color: #FF0000; 
+    }
+    100% {
+        background-color: #0007;
+    }
+}
+/* Especificidad:010
+   color de primer plano heredado de body
+*/
+.semaforo-light {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #0007;
+    border: 0.6em solid #000;
+    width: 90%;
+    margin: 1em auto;
+}
+/* Especificidad:031*/
+main.load .semaforo-light:nth-of-type(1) {
+    animation: lightOn 0.5s ease-in-out forwards;
+}
+/* Especificidad:031*/
+main.load .semaforo-light:nth-of-type(2) {
+    animation: lightOn 0.5s ease-in-out 0.5s forwards;
+}
+/* Especificidad:031*/
+main.load .semaforo-light:nth-of-type(3) {
+    animation: lightOn 0.5s ease-in-out 1s forwards;
+}
+/* Especificidad:031*/
+main.load .semaforo-light:nth-of-type(4) {
+    animation: lightOn 0.5s ease-in-out 1.5s forwards;
+}
+
+/* Especificidad:021*/
+main.unload .semaforo-light {
+    animation: lightOff 0.1s ease-in-out forwards;
+}
+/* Especificidad:002*/
+main ol {
+    padding: 2rem; 
+    margin: 2vw auto; 
+    max-width: 90%; 
+    background-color: #FD7F20; 
+    border: 0.2rem solid #672e03; 
+    border-radius: 0.5rem; 
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-size: 1rem; 
+    color: #333; 
+  }
+  
+  /* Especificidad:003
+    color de primer plano heredado de main ol
+  */
+  main ol li {
+    margin: 1rem 0; 
+    padding: 0.5rem 1rem; 
+    background-color: #fff;
+    border-bottom: 0.1rem solid #672e03; 
+    border-radius: 0.3rem; 
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease; 
+  }
+  /* Especificidad:013*/
+  main ol li:last-child {
+    border-bottom: none;
+  }

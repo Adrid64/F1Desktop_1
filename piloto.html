@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Adrian Dumitru" />
+    <meta name="description" content="piloto" />
+    <meta name="keywords" content="piloto" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Desktop</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" sizes="16x16" />
+</head>
+
+<body>
+
+    <!-- Encabezado con navegación -->
+    <header>
+        <h1><a href="Index.html">F1 Desktop</a></h1>
+        <nav>
+            <a href="Index.html" title="inicio">Inicio</a>
+            <a href="piloto.html" title="Piloto" class="active">Piloto</a>
+            <a href="noticias.html" title="Noticias">Noticias</a>
+            <a href="calendario.html" title="Calendario">Calendario</a>
+            <a href="meteorología.html" title="meteorología">Meteorología</a>
+            <a href="circuito.html" title="circuito">Circuito</a>
+            <a href="viajes.php" title="Viajes">Viajes</a>
+            <a href="juegos.html" title="Juegos">Juegos</a>
+        </nav>
+    </header>
+
+    <p>Estas en: <a href="Index.html">Inicio</a> &gt;&gt; Piloto</p>
+
+    <main>
+        <h2>Piloto</h2>
+
+        <!-- Sección que agrupa información personal del piloto -->
+        <section>
+            <h3>Información personal</h3>
+            <p>Nombre: Guanyu Zhou</p>
+            <p>Dorsal: 24</p>
+            <p>Ciudad nacimiento: Shanghai</p>
+            <p>F. nacimiento: 30 May 1999</p>
+
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagenes/guanyuPequeño.png" />
+                <source media="(max-width: 799px)" srcset="multimedia/imagenes/guanyuMediano.png" />
+                <img src="multimedia/imagenes/guanyuGrande.png" alt="Foto de Guanyu Zhou" />
+            </picture>
+        </section>
+
+        <!-- Sección de descripción del piloto -->
+        <section>
+            <h3>Descripción</h3>
+            <p>
+                Guanyu Zhou nació el 30 de mayo de 1999 en Shanghái, China. Como tantos otros pilotos de origen asiático,
+                Zhou pasó su infancia en Gran Bretaña, donde comenzó a competir en Karting logrando notables resultados tanto a nivel nacional como europeo.
+            </p>
+        </section>
+
+        <!-- Sección de mejores resultados -->
+        <section>
+            <h3>Mejores resultados en los últimos 3 años</h3>
+
+            <ul>
+                <li>2022 - Temporada de Fórmula 1 con Alfa Romeo
+                    <ul>
+                        <li>Primer piloto chino en la historia de la Fórmula 1.</li>
+                        <li>Participación en 22 carreras:
+                            <ul>
+                                <li>Mejor resultado: 8.º lugar en Canadá.</li>
+                                <li>Alcanzó la Q3 en 4 ocasiones.</li>
+                                <li>Consiguió un total de 6 puntos.</li>
+                            </ul>
+                        </li>
+                        <li>Finalizó en la 18.ª posición del campeonato mundial.</li>
+                    </ul>
+                </li>
+
+                <li>2023 - Temporada de Fórmula 1 con Alfa Romeo
+                    <ul>
+                        <li>Participación en 22 carreras:
+                            <ul>
+                                <li>Mejor resultado: 9.º lugar en Australia.</li>
+                                <li>2 vueltas rápidas durante la temporada.</li>
+                            </ul>
+                        </li>
+                        <li>Finalizó nuevamente en la 18.ª posición del campeonato.</li>
+                    </ul>
+                </li>
+
+                <li>2024 - Temporada de Fórmula 1 con Sauber
+                    <ul>
+                        <li>Hasta julio de 2024:
+                            <ul>
+                                <li>Participación en 14 carreras.</li>
+                                <li>Resultados más destacados: alcanzó la Q3 en 2 ocasiones.</li>
+                                <li>Acumuló 12 puntos hasta la fecha.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de tabla de resultados de temporadas -->
+        <section>
+            <h3>Resultados de Temporadas</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="th-temporada" scope="col">Temporada</th>
+                        <th id="th-puntos" scope="col">Puntos Obtenidos</th>
+                        <th id="th-posicion" scope="col">Posición en Clasificación Final</th>
+                        <th id="th-poles" scope="col">Poles</th>
+                        <th id="th-victorias" scope="col">Victorias</th>
+                        <th id="th-podios" scope="col">Podios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="row-2023" scope="row">2023</th>
+                        <td headers="row-2023 th-puntos">6</td>
+                        <td headers="row-2023 th-posicion">18.º</td>
+                        <td headers="row-2023 th-poles">0</td>
+                        <td headers="row-2023 th-victorias">0</td>
+                        <td headers="row-2023 th-podios">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Sección de contenido adicional tangencial -->
+    <aside>
+        <h4>Aficiones de Guanyu Zhou</h4>
+        <ul>
+            <li>Jugar videojuegos</li>
+            <li>Baloncesto</li>
+            <li>Moda</li>
+            <li>Viajar</li>
+            <li>Coches</li>
+        </ul>
+
+        <h4>Equipos para los que ha competido</h4>
+        <ol>
+            <li>Prema Powerteam</li>
+            <li>Motopark Academy</li>
+            <li>Prema Racing</li>
+            <li>UNI-Virtuosi Racing</li>
+            <li>Alpine</li>
+            <li>Alfa Romeo</li>
+            <li>Sauber</li>
+        </ol>
+    </aside>
+
+    <!-- Sección multimedia: videos y audios -->
+    <section>
+        <h3>Accidente de Guanyu Zhou</h3>
+        <video controls>
+            <source src="multimedia/videos/crash.mp4" type="video/mp4" />
+            <source src="multimedia/videos/crash.webm" type="video/webm" />
+            Tu navegador no soporta el elemento de video.
+        </video>
+
+        <h3>Preguntas más buscadas de Zhou Guanyu</h3>
+        <audio controls>
+            <source src="multimedia/audios/preguntas.mp3" type="audio/mpeg" />
+            <source src="multimedia/audios/preguntas.wav" type="audio/wav" />
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>
+
+    <!-- Enlaces de interés -->
+    <section>
+        <h4>Enlaces de interés</h4>
+        <ul>
+            <li><a href="https://gpracingstats.com/drivers/guanyu-zhou/">Guanyu Zhou F1 stats</a></li>
+            <li><a href="https://www.caranddriver.com/es/formula-1/pilotos/a58249/guanyu-zhou/">Biografía</a></li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
