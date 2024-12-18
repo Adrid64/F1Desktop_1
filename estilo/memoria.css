@@ -113,3 +113,25 @@ p a{
     box-shadow: 0 0.5rem 1rem #00000026; 
     
   }
+
+  /*Redefinicion controlada*/
+  @media (max-width: 780px) {
+    section > article {
+        height: 10rem; /
+    }
+
+    section > article h3 {
+        font-size: 1rem; 
+    }
+}
+
+ /*Redefinicion controlada*/
+ @media (max-width: 380px) {
+    section > article {
+        height: 7rem; /
+    }
+
+    section > article h3 {
+        font-size: 0.8rem; 
+    }
+}

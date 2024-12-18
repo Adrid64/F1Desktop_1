@@ -41,7 +41,7 @@ class Memoria {
             article.setAttribute('data-element', carta.nombre);
 
             const h3 = document.createElement('h3');
-            h3.textContent = "Tarjeta de memoria";
+            h3.textContent = "Tarjeta";
 
             const img = document.createElement('img');
             img.src = carta.imagen;
